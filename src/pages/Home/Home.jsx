@@ -15,12 +15,12 @@ function Home() {
         <div className="home">
             <Featured />
             <TrustedBy />
-            <Slide slidesToShow={5} arrowsScroll={5}>
+            {/* <Slide slidesToShow={5} arrowsScroll={5}>
 
                 {cards.map(card => (
                     <CatCard item={card} key={card.id} />
                 ))}
-            </Slide>
+            </Slide> */}
 
             <div className="features">
                 <div className="container">
@@ -222,11 +222,11 @@ function Home() {
                 </div>
             </div>
 
-            <Slide slidesToShow={4} arrowsScroll={4}>
+            {/* <Slide slidesToShow={4} arrowsScroll={4}>
                 {projects.map((card) => (
                     <ProjectCard key={card.id} card={card} />
                 ))}
-            </Slide>
+            </Slide> */}
 
 
 

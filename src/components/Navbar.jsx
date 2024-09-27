@@ -45,7 +45,7 @@ navigate('/');
           <span className="dot">.</span>
         </div>
         <div className="links">
-          <span>Liverr Business</span>
+          <span>Biverr Business</span>
           <span>Explore</span>
   
           {!currentUser?.isSeller && <span>Become a Seller</span>}
